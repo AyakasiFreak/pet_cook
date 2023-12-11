@@ -1,0 +1,288 @@
+@import "./reset.css";
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+.container{
+   	max-width: 1230px;
+   	padding:0 30px;
+  	margin:0 auto;
+}
+
+.header{
+	padding-top:44px;
+	position:relative;
+	margin-bottom:88px;
+}
+.header_inn{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.header_nav{
+	width:78%;
+}
+.nav_list{
+	display: flex;
+	column-gap:28px;
+}
+.nav_link{
+	font-size:16px;
+	font-weight: 500;
+	color:black;
+}
+.nav_link:hover{
+	color:dimgrey;
+}
+.header_button{
+	display:flex;
+	column-gap:25px;
+}
+.petcook{
+	height:516px;
+	background-color:#015fff;
+	border-radius:30px;
+	display:flex;
+}
+.about_petcook{
+	width:50%;
+	margin:0 auto;
+	padding:0 auto;
+	margin-left:100px;
+	padding-top:4em;
+}
+.tittle_petcook{
+	font-size: 56px;
+	line-height: 67px;
+	color: #f7f8fa;
+	font-weight: 700;
+}
+.par_petcook{
+	margin-top:20px;
+	width:80%;
+	font-size: 18px;
+	line-height: 27px;
+	color: #f7f8fa;
+	font-weight: 400;
+}
+.button_catalog{
+	margin-top:50px;
+	background-color:#efc94e;
+	font-size: 16px;
+	line-height: 16px;
+	color: #111419;
+	font-weight: 500;
+	padding:15px 25px;
+	border-radius:10px;
+}
+.img_cat{
+	margin-top:-4em;
+	margin-left:-2em;
+}
+.big_choise_tittle{
+	margin-top:130px;
+	display:flex;
+	justify-content: space-between;
+}
+.big_choise_p {
+	font-size: 42px;
+	line-height: 42px;
+	color: #111419;
+	font-weight: 700;
+}
+.all_products{
+	display:flex;
+	column-gap:15px;
+	width:27%;
+}
+.all_products p{
+	margin-top:1em;
+	width:98%;
+	font-size: 16px;
+	line-height: 16px;
+	color: #111419;
+	font-weight: 500;
+}
+.for_all{
+	margin-top:61px;
+	display:flex;
+	column-gap:30px;
+}
+.animals{
+	z-index: 0;
+}
+.animals p {
+	margin-top:-3em;
+	font-size: 18px;
+	line-height: 18px;
+	color: #111419;
+	font-weight: 500;
+	width: 240px;
+	height: 48px;
+	border-radius: 10px;
+	background-color: #f7f7f9;
+	text-align:center;
+	z-index:1;
+}
+.most_30{
+	margin-top:120px;
+	height:516px;
+	background-image:url(../img/8.jpg);
+	border-radius:30px;
+	display:flex;
+	align-items: flex-end;
+	padding-left:4em;
+	padding-bottom:5em;
+}
+.most_30_tittle{
+	padding-bottom:1em;
+	width:60%;
+	font-size: 42px;
+	line-height: 50px;
+	color: #f7f8fa;
+	font-weight: 700;
+}
+.most_30_p{	
+	width:57%;
+	font-size: 18px;
+	line-height: 27px;
+	color: #f7f8fa;
+	font-weight: 300;
+}
+.learn_more{
+	margin-top:50px;
+	background-color:#efc94e;
+	font-size: 16px;
+	line-height: 16px;
+	color: #111419;
+	font-weight: 500;
+	padding:15px 25px;
+	border-radius:10px;
+}
+.about_buy{
+	margin-top:120px;
+	display:flex;
+	column-gap:30px;
+}
+.corm_12{
+	margin-top:30px;
+	display:flex;
+	column-gap:30px;
+}
+.upper_corm{
+	display:flex;
+	column-gap:210px;
+}
+.tittle_of_corm{
+	font-size: 42px;
+	line-height: 16px;
+	color: #111419;
+	font-weight: 700;
+}
+.recommend{
+	display:flex;
+	column-gap:16px;
+}
+.review p{
+	font-size: 18px;
+	line-height: 18px;
+	color: #111419;
+	font-weight: 500;
+}
+.num_review a{
+	font-size: 16px;
+	line-height: 16px;
+	text-decoration: underline;
+	color: #111419;
+	font-weight: 400;
+}
+.about_corm p {
+	margin-top:27px;
+	font-size: 12px;
+	line-height: 27px;
+	color: #111419;
+	font-weight: 400;
+}
+.choise_corm{
+	margin-top:42px;
+	display:flex;
+	column-gap:140px;
+}
+.select_volume	 p{
+	font-size: 14px;
+	line-height: 16px;
+	color: #111419;
+	font-weight: 100;
+}
+.select_quantity p{
+	font-size: 14px;
+	line-height: 16px;
+	color: #111419;
+	font-weight: 100;
+}
+.form_radio_group {
+	margin-top:20px;
+	display: flex;
+	column-gap:11px;
+	overflow: hidden;
+}
+.form_radio_group-item {
+	display: inline-block;
+	float: left;    
+}
+.form_radio_group input[type=radio] {
+	display: none;
+}
+.form_radio_group label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px 10px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #111419;
+	font-weight: 400;
+	border: 1px solid #999;
+	user-select: none;
+}
+ 
+.form_radio_group .form_radio_group-item:first-child label {
+}
+.form_radio_group .form_radio_group-item:last-child label {
+	border-right: 1px solid #999;
+}
+ 
+/* Checked */
+.form_radio_group input[type=radio]:checked + label {
+ border-color: blue;
+}
+ 
+/* Hover */
+.form_radio_group label:hover {
+	color: #666;
+}
+.footer_inn{
+	margin-top:50px;
+	display:flex;
+	justify-content:space-between;
+	padding-bottom:50px;
+}
+.privacy_p {
+	font-size: 14px;
+	line-height: 14px;
+	color: #111419;
+	font-weight: 400;
+}
+.contacts{
+	display:flex;
+	column-gap:20px;
+}
+.politics_a {
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: underline;
+	color: #111419;
+	font-weight: 400;
+}
+
+
